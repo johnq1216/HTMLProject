@@ -1,0 +1,4 @@
+If the class files are not available.  Convert java file to class files.  
+The java file itself is not needed for HTML.  The applet itself won't run
+with the current Java version, so you must add the file location's exception
+to the exception list in "configure java"

@@ -1,0 +1,29 @@
+<html>
+
+<body>
+<script type = "text/javascript">
+
+
+function count (num) {
+	var counter = 1;
+
+	
+	while(counter <= num){
+		document.write(counter);
+		var modTest = counter % 3;
+		
+		if(modTest == 0){
+			document.write(" -divisible by 3");
+		}
+		document.write("<br>");
+		counter++;
+	}
+	
+
+}
+
+count(27);
+</script>
+
+</body>
+</html>

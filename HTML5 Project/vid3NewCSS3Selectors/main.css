@@ -1,0 +1,5 @@
+div > p {color: green}
+
+p.Wolverine + p {color:red;}
+
+p.SolidSnake ~ p {color:blue;}
